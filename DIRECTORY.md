@@ -25,7 +25,9 @@
   * [Sum Of Subsets](https://github.com/TheAlgorithms/Python/blob/master/backtracking/sum_of_subsets.py)
 
 ## Bit Manipulation
+  * [Binary And Operator](https://github.com/TheAlgorithms/Python/blob/master/bit_manipulation/binary_and_operator.py)
   * [Binary Or Operator](https://github.com/TheAlgorithms/Python/blob/master/bit_manipulation/binary_or_operator.py)
+  * [Binary Xor Operator](https://github.com/TheAlgorithms/Python/blob/master/bit_manipulation/binary_xor_operator.py)
 
 ## Blockchain
   * [Chinese Remainder Theorem](https://github.com/TheAlgorithms/Python/blob/master/blockchain/chinese_remainder_theorem.py)
@@ -86,6 +88,7 @@
 
 ## Conversions
   * [Binary To Decimal](https://github.com/TheAlgorithms/Python/blob/master/conversions/binary_to_decimal.py)
+  * [Binary To Octal](https://github.com/TheAlgorithms/Python/blob/master/conversions/binary_to_octal.py)
   * [Decimal To Any](https://github.com/TheAlgorithms/Python/blob/master/conversions/decimal_to_any.py)
   * [Decimal To Binary](https://github.com/TheAlgorithms/Python/blob/master/conversions/decimal_to_binary.py)
   * [Decimal To Hexadecimal](https://github.com/TheAlgorithms/Python/blob/master/conversions/decimal_to_hexadecimal.py)
@@ -305,7 +308,7 @@
 ## Linear Algebra
   * Src
     * [Lib](https://github.com/TheAlgorithms/Python/blob/master/linear_algebra/src/lib.py)
-    * [Polynom-For-Points](https://github.com/TheAlgorithms/Python/blob/master/linear_algebra/src/polynom-for-points.py)
+    * [Polynom For Points](https://github.com/TheAlgorithms/Python/blob/master/linear_algebra/src/polynom_for_points.py)
     * [Power Iteration](https://github.com/TheAlgorithms/Python/blob/master/linear_algebra/src/power_iteration.py)
     * [Rayleigh Quotient](https://github.com/TheAlgorithms/Python/blob/master/linear_algebra/src/rayleigh_quotient.py)
     * [Test Linear Algebra](https://github.com/TheAlgorithms/Python/blob/master/linear_algebra/src/test_linear_algebra.py)
@@ -628,6 +631,9 @@
     * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_52/sol1.py)
   * Problem 53
     * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_53/sol1.py)
+  * Problem 54
+    * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_54/sol1.py)
+    * [Test Poker Hand](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_54/test_poker_hand.py)
   * Problem 55
     * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_55/sol1.py)
   * Problem 551
@@ -640,6 +646,8 @@
     * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_67/sol1.py)
   * Problem 76
     * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_76/sol1.py)
+  * Problem 97
+    * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_97/sol1.py)
   * Problem 99
     * [Sol1](https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_99/sol1.py)
 
@@ -693,9 +701,9 @@
   * [Radix Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/radix_sort.py)
   * [Random Normal Distribution Quicksort](https://github.com/TheAlgorithms/Python/blob/master/sorts/random_normal_distribution_quicksort.py)
   * [Random Pivot Quick Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/random_pivot_quick_sort.py)
-  * [Recursive-Quick-Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/recursive-quick-sort.py)
   * [Recursive Bubble Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/recursive_bubble_sort.py)
   * [Recursive Insertion Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/recursive_insertion_sort.py)
+  * [Recursive Quick Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/recursive_quick_sort.py)
   * [Selection Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/selection_sort.py)
   * [Shell Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/shell_sort.py)
   * [Stooge Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/stooge_sort.py)
@@ -707,8 +715,9 @@
   * [Wiggle Sort](https://github.com/TheAlgorithms/Python/blob/master/sorts/wiggle_sort.py)
 
 ## Strings
-  * [Aho-Corasick](https://github.com/TheAlgorithms/Python/blob/master/strings/aho-corasick.py)
+  * [Aho Corasick](https://github.com/TheAlgorithms/Python/blob/master/strings/aho_corasick.py)
   * [Boyer Moore Search](https://github.com/TheAlgorithms/Python/blob/master/strings/boyer_moore_search.py)
+  * [Can String Be Rearranged As Palindrome](https://github.com/TheAlgorithms/Python/blob/master/strings/can_string_be_rearranged_as_palindrome.py)
   * [Capitalize](https://github.com/TheAlgorithms/Python/blob/master/strings/capitalize.py)
   * [Check Anagrams](https://github.com/TheAlgorithms/Python/blob/master/strings/check_anagrams.py)
   * [Check Pangram](https://github.com/TheAlgorithms/Python/blob/master/strings/check_pangram.py)
