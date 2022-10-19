@@ -1,0 +1,68 @@
+class Node:
+  def __init__(self,data):
+    self.data=data
+    self.next=self.prev=None
+class Text_Editor:
+# constructor is here  
+  def __init__(self):
+    self.head=None # doubly linked for words/ charcters
+    self.ctr=0 # counter 
+
+  def ipt_word(self,string):#insert last def for main list
+   # print("inserting :",string)
+    node=Node(string)
+    if self.head is None:
+      self.head=node
+    else:
+      temp=self.head
+      while temp.next is not None:
+        temp=temp.next
+      temp.next=node
+      node.prev=temp
+    self.ctr+=1
+   
+  
+  def insert_arbitary(self,word,index,reci):#issue is herer
+   # print('counter:',self.ctr)
+    if index is 0:
+      self.insert_beg(word)
+    elif index is self.ctr:
+     self.ipt_word(word)  
+    else:
+      temp=self.head
+      i=0
+      while i < index:
+        print(temp.data)
+        temp=temp.next
+        i+=1
+      
+      print('test this a test=>',temp.prev.data)
+      print('\n word==>',word)
+      node=Node(word)
+      temp.prev.next=node
+      node.prev=temp.prev
+      temp.prev=node
+      node.next=temp
+      
+      
+      self.ctr+=1
+
+  def trav(self):
+    sp=self.head
+    while sp.next:
+      print(sp.data)
+      sp=sp.next
+    print('end=>',sp.data)
+    print('2ndlast=>',sp.prev.data)
+    print('2ndlast=>',sp.prev.prev.data)
+    print('2ndlast=>',sp.prev.prev.prev.data)
+    #print('prev>',sp.data)
+   #print('prev>',sp.prev.data)
+if __name__=='__main__':
+  ed=Text_Editor()
+  ed.ipt_word('i') 
+  ed.ipt_word('am')
+  ed.ipt_word(',a')
+  ed.insert_arbitary('anonymous',2,'insert')
+  print('printing')
+  ed.trav()
